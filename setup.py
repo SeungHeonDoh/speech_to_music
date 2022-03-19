@@ -20,6 +20,7 @@ setup(
         'umap-learn==0.5.2',
         'gradio',
         'pandas',
-        'omegaconf'
+        'omegaconf',
+        "jupyter"
     ]
 )

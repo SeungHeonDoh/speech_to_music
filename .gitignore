@@ -2,10 +2,11 @@ dataset/
 wandb/
 *.ckpt
 *.pt
+*.png
 env/
 grid_search/
 lightning_logs/
-notebook/
+.ipynb_checkpoints/
 scripts/
 # Byte-compiled / optimized / DLL files
 __pycache__/

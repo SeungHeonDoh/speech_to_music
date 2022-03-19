@@ -1,0 +1,14 @@
+data_type: IEMOCAP
+fusion_type: late_fusion
+freeze_type: feature
+batch_size: 1
+num_workers: 8
+lr: 5.0e-05
+max_epochs: 200
+is_augmentation: false
+gpus:
+- 2
+strategy: ddp
+local_rank: 0
+num_nodes: 1
+reproduce: false

@@ -1,0 +1,13 @@
+tid: debug
+fusion_type: music
+data_type: Audioset
+freeze_type: none
+batch_size: 16
+num_workers: 16
+lr: 0.0001
+max_epochs: 200
+gpus: '0'
+accelerator: ddp
+local_rank: 0
+num_nodes: 1
+reproduce: false

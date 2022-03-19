@@ -1,0 +1,57 @@
+{
+    "mrr": 0.6118431906309313,
+    "prec_k": 0.557453666398066,
+    "sim_k": 0.7164046997400907,
+    "match_ndcg_k": 0.5595310930089107,
+    "sim_ndcg_k": 0.7169863758893882,
+    "confusion_matrix": {
+        "happy": {
+            "angry": 23.0,
+            "happy": 466.0,
+            "neutral": 58.0,
+            "sad": 121.0
+        },
+        "funny": {
+            "angry": 53.0,
+            "happy": 459.0,
+            "neutral": 132.0,
+            "sad": 136.0
+        },
+        "sad": {
+            "angry": 35.0,
+            "happy": 250.0,
+            "neutral": 205.0,
+            "sad": 451.0
+        },
+        "tender": {
+            "angry": 17.0,
+            "happy": 64.0,
+            "neutral": 38.0,
+            "sad": 54.0
+        },
+        "exciting": {
+            "angry": 30.0,
+            "happy": 252.0,
+            "neutral": 63.0,
+            "sad": 76.0
+        },
+        "angry": {
+            "angry": 485.0,
+            "happy": 191.0,
+            "neutral": 211.0,
+            "sad": 69.0
+        },
+        "scary": {
+            "angry": 129.0,
+            "happy": 33.0,
+            "neutral": 60.0,
+            "sad": 24.0
+        },
+        "noise": {
+            "angry": 78.0,
+            "happy": 495.0,
+            "neutral": 1153.0,
+            "sad": 294.0
+        }
+    }
+}

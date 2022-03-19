@@ -1,0 +1,16 @@
+music_type: Audioset
+speech_type: IEMOCAP
+branch_type: 3branch
+fusion_type: text
+word_model: glove
+batch_size: 128
+num_workers: 8
+is_augmentation: false
+lr: 0.001
+max_epochs: 200
+gpus:
+- 0
+strategy: ddp
+local_rank: 0
+num_nodes: 1
+reproduce: false
